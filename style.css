@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:"Montserrat";
+}
+
+.mainbox{
+    width: 610px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid skyblue;
+    margin: 0 auto;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.5);
+}
+
+.titlebox{
+    text-align: right;
+    margin-top: 0;
+}
+
+body,h2,h1{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-style: none;
+    font-size: 36px;
+    color: lightseagreen;
+}
+
+h2{
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.836);
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.nametext{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.profile-img{
+    float: left;
+    display: inline;
+}
+footer{
+    text-align: center;
+    background-color: #1e1e1e;
+    padding:10px;
+    font-size: 12px;
+    color: aquamarine;
+    clear: both;
+}
+
+.desc-text{
+    font-size: 12px;
+    margin: 15px 0 15px 0;
+}
+
+.in-text{
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 px 0;
+    clear:both;
+}
+
+.in-textp{
+    font-size: 15px;
+    padding: 0;
+    margin: 0 0 5px 0;
+    clear:both;
+    font-weight:600;
+}
+
+.title-text{
+    font-weight: bold;
+    font-size: 17px;
+    margin:0 0 5px 0;
+    padding: 0;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+.year-text{
+    float:right;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.title-text.flo{
+    float:left;
+    margin: 0 0 5px 0;
+}
+
+.text-block{
+    /* background-color: aquamarine; */
+    width: 32%;
+    float:left;
+    text-align: center;
+    margin: 1px;
+    overflow: hidden;
+    border: 1px dashed plum;
+}
+
+.img-file{
+    width:200px;
+    height: 120px;
+    display:block;
+    margin:auto;
+}
+
+.ico-img{
+    width: 20px;
+    height: 18px;
+    overflow: hidden;
+    margin: 1px;
+}
+
+.ico{
+    text-align: right;
+}
